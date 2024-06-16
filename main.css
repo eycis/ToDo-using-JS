@@ -5,7 +5,7 @@
     --light: #EEE;
     --pink: #EC4899;
     --purple: #8B5Cf6;
-    --gray: #6B7280;
+    --grey: #6B7280;
 }
 *{
     box-sizing: border-box;
@@ -28,7 +28,7 @@ header{
 header h1{
     font-size: 2.5rem;
     font-weight: 300;
-    color: var(--gray);
+    color: var(--grey);
     margin-bottom: 1rem;
 }
 #new-task-form{
@@ -70,7 +70,6 @@ input, button{
 }
 main{
     flex: 1 1 0%;
-    padding: 2rem 1rem;
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
@@ -81,7 +80,7 @@ main{
 #task .task-list h2{
     font-size: 1.5rem;
     font-weight: 300;
-    color: var(--gray);
+    color: var(--grey);
     margin-bottom: 1rem;
 }
 #tasks .task{
@@ -99,6 +98,7 @@ main{
     color: var(--light);
     font-size: 1.125rem;
     width: 100%;
+    flex: 1 1 0%;
     display: block;
     transition: 0.4s;
 }
